@@ -1,0 +1,619 @@
+administrator sistem dan anggota staf keperawatan harus dapat menambahkan daftar siswa ke dalam kategori
+administrator sistem dan anggota staf keperawatan harus dapat menambahkan satu siswa ke dalam kategori
+Menambahkan siswa ke dalam kategori harus menjadi syarat untuk sistem kategori studi.
+administrator sistem dan anggota staf keperawatan harus dapat menentukan urutan kelas yang disukai untuk kategori tertentu.
+Untuk masing-masing kelas dalam urutan kategori, administrator sistem dan anggota staf keperawatan harus dapat menentukan kuartal dari kelas yang akan ditawarkan.
+administrator sistem dan anggota staf keperawatan harus dapat menambahkan kelas baru ke dalam urutan kelas yang sudah ada
+administrator sistem dan anggota staf keperawatan harus dapat menambahkan kelas klinis atau bagian klinis pada urutan kelas
+administrator sistem dan anggota staf keperawatan harus dapat menambahkan kategori baru ke sistem yang diidentifikasi pada awal bulan dan awal tahun.
+administrator sistem dan anggota staf keperawatan harus dapat menambahkan kelas baru untuk departemen keperawatan ke dalam sistem.
+Kelas dapat berupa kelas non-klinis atau kelas klinis.
+Kelas non-klinis harus menentukan persyaratan ruang kuliah, nama kuliah, dan kebutuhan instruktur.
+Kelas klinis harus menetapkan persyaratan ruang kuliah, nama kursus, kebutuhan klinik, kebutuhan instruktur kuliah, dan kebutuhan instruktur lab klinis.
+Administrator sistem / anggota staf keperawatan harus mampu membuat program studi baru.
+Program studi terdiri dari nama program dan daftar kelas yang diperlukan (baik klinis dan non-klinis) dan harus diselesaikan.
+administrator sistem dan anggota staf keperawatan harus memiliki kemampuan untuk menentukan kelas yang diperlukan untuk sebuah program studi
+Sistem ini mampu menampilkan laporan kelas yang dibutuhkan untuk jangka waktu yang diberikan berdasarkan seluruh kategori dari seluruh program untuk tujuan perencanaan administrator sistem dan anggota staf keperawatan.
+Laporan dari kelas yang dibutuhkan (namun tidak terbatas pada) kelas yang akan ditawarkan meliputi jumlah bagian yang diperlukan, jumlah laboratorium yang diperlukan, dan jenis ruangan yang dibutuhkan.
+Kelas untuk kategori yang diberikan tidak dapat bertentangan dengan waktu dan hari yang ditawarkan.
+administrator sistem dan anggota staf keperawatan harus dapat menambahkan situs klinis baru ke dalam sistem.
+informasi situs klinis meliputi (namun tidak terbatas) nama situs dan informasi kontak.
+administrator sistem dan anggota staf keperawatan harus dapat menambahkan bagian laboratorium klinis baru untuk kelas klinis yang sudah ada ke dalam sistem.
+Bagian laboratorium klinis harus mencakup nama situs klinis,  hari instruktur kelas dan waktu laboratorium.
+administrator sistem dan anggota staf keperawatan harus dapat menambahkan seorang mahasiswa yang telah terdaftar untuk kelas klinis ke bagian laboratorium klinis untuk kelas tersebut.
+Sistem ini dapat memungkinkan Administrator atau anggota staf keperawatan sistem untuk menghapus mahasiswa dari bagian laboratorium klinis.
+Sistem ini akan memungkinkan administrator sistem / anggota staf keperawatan untuk memindahkan siswa dari satu bagian lab klinis ke bagian laboratorium klinis lain yang sesuai dengan kelas klinis yang sama.
+Administrator sistem / anggota staf keperawatan harus dapat membatalkan bagian laboratorium klinis jika dan hanya jika tidak ada siswa yang terdaftar pada bagian laboratorium klinis tersebut.
+administrator sistem / anggota staf keperawatan dapat menambahkan mahasiswa keperawatan baru ke dalam sistem.
+Seorang anggota staf harus memiliki kemampuan untuk mengelola data kemajuan siswa paruh waktu yang meliputi modifikasi urutan kelas mereka dan jadwal waktu kelas.
+Sistem ini harus mampu menampilkan ringkasan yang dapat dicetak untuk masing-masing kategori yang akan mencakup siswa yang terdaftar dalam program studi, kemajuan program dari kelas dan waktu penyelesaian.
+Sistem ini harus mampu menampilkan ringkasan yang dapat dicetak untuk situs masing-masing klinis yang akan mencakup informasi tentang laboratorium yang diselenggarakan di lokasi tersebut selama kuartal yang diberikan (Informasi umum situs klinis tentang laboratorium yang diadakan di lokasi tersebut, tanggal dan waktu semua laboratorium yang ada di sana).
+Sistem ini harus mampu menampilkan ringkasan yang dapat dicetak untuk masing-masing laboratorium klinis yang mencakup (namun tidak terbatas) nama kelas, nomor kelas, bagian lab, siswa yang terdaftar, daftar waktu dan lokasi hari instruktur.
+Sistem ini harus mampu menampilkan ringkasan yang dapat dicetak untuk masing-masing mahasiswa keperawatan yang akan mencakup (namun tidak terbatas) nama mahasiswa, ID mahasiswa,  tanggal penerimaan mahasiswa,  kredit IPK, dan kategori dimana mahasiswa terdaftar.
+Sistem ini harus mampu menampilkan ringkasan log sistem yang dapat dicetak
+Sistem ini harus berisi informasi kontak (e-mail dan nomor telepon) untuk semua orang yang terkait dengan sistem, termasuk (namun tidak terbatas ) anggota staf, instruktur kuliah, instruktur lab klinis, dan administrator situs klinis.
+Sistem ini akan menggunakan alamat e-mail yang telah disimpan sebagai sarana utama penyebaran informasi kepada pihak yang bersangkutan.
+Sistem akan memberitahukan pihak yang bersangkutan untuk keperluan komunikasi rutin termasuk (namun tidak terbatas) menginformasikan siswa tentang kelas yang ditawarkan (jadwal) yang akan datang dan jadwal mereka yang akan tiba.
+Sistem akan memberitahukan pihak yang bersangkutan ketika terjadi perubahan yang mempengaruhi bagian klinis termasuk (namun tidak terbatas) perubahan kapasitas bagian klinis dan pembatalan bagian klinis.
+Sistem akan memberitahukan pihak yang terkena dampak ketika terjadi perubahan yang mempengaruhi kelas termasuk (namun tidak terbatas) pembatalan kelas, rincian perubahan bagian kelas  dan perubahan penawaran kelas untuk kuartal tertentu.
+Sistem akan memberitahukan pihak yang terkena dampak ketika terjadi perubahan yang mempengaruhi kategori termasuk (namun tidak terbatas pada) perubahan pada urutan kelompok program studi dan perubahan pada jadwal minggu tertentu (lab dibatalkan minggu ini karena instruktur sedang sakit).
+Sistem akan memberitahukan pihak yang terkena dampak ketika terjadi perubahan yang mempengaruhi siswa tertentu termasuk (tetapi tidak terbatas pada) mengubah status mahasiswa dari waktu penuh menjadi paruh waktu dan memindahkan mahasiswa ke bagian klinis yang berbeda.
+Administrator sistem / anggota staf keperawatan harus memiliki kemampuan untuk mengubah informasi yang berkaitan dengan kategori termasuk identitatas kelompok program studi, urutan kelas yang disukai, dan perempat bahwa kategori yang akan mengambil kelas tertentu.
+Administrator sistem / anggota staf keperawatan harus memiliki kemampuan untuk mengubah informasi yang berkaitan dengan Program Studi dalam Departemen Keperawatan termasuk nama program studi dan kelas yang diperlukan untuk program studi tersebut.
+Administrator sistem / anggota staf keperawatan harus memiliki kemampuan untuk mengubah informasi yang berkaitan dengan Situs klinis termasuk nama situs klinis, penghubung situs, informasi kontak dan alamat.
+Administrator sistem / anggota staf keperawatan harus memiliki kemampuan untuk mengubah informasi yang berkaitan dengan bagian laboratorium klinis termasuk nama situs klinis, departemen / bagian untuk lab, instruktur kelas, hari dan waktu lab dan informasi kontak.
+Administrator sistem / anggota staf keperawatan harus memiliki kemampuan untuk mengubah informasi yang berkaitan dengan Mahasiswa Keperawatan termasuk nama mahasiswa, nomor telepon mahasiswa, ID mahasiswa,e-mail, status (penuh waktu atau paruh waktu) dan program studi.
+Aplikasi Sengketa harus mematuhi standar perusahaan untuk pembuatan antarmuka pengguna untuk aplikasi yang digunakan secara internal dan eksternal.
+Semua layar yang dibuat sebagai bagian dari aplikasi sengketa harus sesuai dengan standar perusahaan untuk pembuatan antarmuka.
+Daftar kasus sengketa yang ditampilkan setelah pencarian dilakukan harus memiliki kode warna untuk memudahkan identifikasi kasus sengketa berdasarkan status kasus sengketa.
+100% perwakilan anggota dan pedagang dapat menggunakan aplikasi Sengketa secara teratur setelah kursus pelatihan 2 hari.
+100% perwakilan layanan Anggota harus berhasil membuat kasus sengketa pada pertemuan pertama setelah menyelesaikan kursus pelatihan.
+100% perwakilan layanan pedagang harus berhasil melakukan tindak lanjut atas kasus sengketa pada pertemuan pertama setelah menyelesaikan kursus pelatihan.
+Waktu tunggu maksimum untuk pengguna melakukan navigasi dari satu layar ke layar yang lain dalam aplikasi Sengketa tidak lebih dari 5 detik.
+Aplikasi sengketa dapat mendukung 350 akses pengguna secara bersamaan tanpa penurunan performansi aplikasi.
+Aplikasi sengketa  tersedia 24x7x365 dengan pengecualian pada jadwal waktu perawatan, sebagai berikut. Senin - Sabtu 03:00-04:00 AM EST dan Minggu 01:00 AM sampai 05:00 AM EST
+aplikasi sengketa harus memiliki akses ke basis data pernyataan. Basis data pernyataan menyediakan rincian transaksi dari sistem seng. Semua rincian transaksi harus diperoleh dari basis data pernyataan.
+aplikasi sengketa harus memiliki akses ke basis data informasi anggota. Basis data informasi anggota menyediakan informasi rinci mengenai anggota. Semua informasi anggota harus diperoleh dari basis data Informasi Anggota.
+aplikasi sengketa harus memiliki akses ke basis data informasi pedagang. Basis data informasi pedagang menyediakan informasi rinci berkenaan dengan pedagang. Semua rincian informasi pedagang harus diperoleh dari basis data informasi pedagang.
+Aplikasi Sengketa harus memiliki akses dengan aplikasi Surat. Ini akan memungkinkan aplikasi Sengketa untuk meminta surat sebagai bagian dari inisiasi sengketa dan proses tindak lanjut sengketa. Semua permintaan surat harus dikirim ke aplikasi Print Letter Utility.
+aplikasi sengketa akan berinteraksi dengan sistem penagihan dan pengiriman anggota. Ini akan memungkinkan aplikasi sengketa untuk meminta penyesuaian ke akun anggota dan pedagang. Semua permintaan penyesuaian harus dikirim ke Sistem Pengiriman dan Penagihan anggota.
+aplikasi sengketa harus memastikan bahwa hanya pengguna dengan tingkat akses yang sesuai yang diperbolehkan untuk memulai permintaan sengketa.
+Hanya pengguna dengan akses Pembaruan yang dapat memulai permintaan sengketa.
+aplikasi sengketa harus memastikan bahwa hanya pengguna yang berwenang yang diizinkan untuk masuk ke aplikasi.
+Semua pengguna resmi yang pernah diautentikasi harus dapat masuk ke Sistem Sengketa
+Sistem sengketa akan menghasilkan Laporan pengguna yang memiliki rincian setiap pengguna baru yang telah ditambahkan dan perubahan apapun terhadap tingkat akses pengguna yang sudah ada. Laporan ini akan ditinjau untuk keperluan audit.
+Semua penambahan pengguna baru dan modifikasi pada akses pengguna harus dicatat pada Laporan pengguna
+Jika akun pengguna dicabut, maka akun tersebut hanya dapat dipakai ulang oleh administrator sistem.
+Hanya Administrator Sistem yang dapat mengatur ulang akun masuk pengguna yang dicabut
+aplikasi sengketa dapat memanipulasi dan melihat data bisnis. Pengguna tidak akan memiliki akses langsung ke berkas data atau basis data.
+Semua pembaruan berkas data atau basis data harus dimulai dari sistem sengketa
+aplikasi sengketa harus sesuai dengan persyaratan hukum sebagaimana ditentukan oleh Peraturan Operasi Dagang.
+Semua aturan bisnis yang ditetapkan dalam sistem sengketa harus sesuai dengan Peraturan Operasi Dagang.
+aplikasi sengketa harus sesuai dengan persyaratan hukum sebagaimana ditentukan oleh Peraturan E dan Peraturan Z yang mengatur pemrosesan sengketa kartu kredit.
+Semua aturan bisnis yang ditetapkan dalam sistem sengketa harus sesuai dengan pedoman Peraturan E dan Peraturan Z.
+aplikasi sengketa harus mempertahankan riwayat terperinci dari setiap tindakan yang dilakukan oleh pengguna pada kasus sengketa. Hal ini memastikan jejak audit yang lengkap jika muncul pertanyaan terkait dengan kasus sengketa tertentu.
+Semua tindakan melakukan modifikasi kasus sengketa yang sudah ada harus dicatat dalam riyawat kasus.
+Sistem Sengketa harus dapat diakses oleh pengguna internal dan eksternal.
+Sistem Sengketa harus mencegah pengguna mengakses setiap kasus sengketa yang bukan milik basis pemegang kartu mereka.
+Sistem Sengketa akan memfasilitasi entri data langsung dari kasus sengketa melalui antarmuka pengguna yang mendukung respon waktu nyata kepada pengguna.
+Sistem Sengketa harus menyediakan tingkat akses yang berbeda berkaitan dengan tindakan inisiasi dan tindak lanjut kasus sengketa.
+Sistem Sengketa harus menyediakan kemampuan akses tampilan untuk pengguna resmi aplikasi.
+Sistem Sengketa harus menyediakan kemampuan akses pembaruan bagi pengguna resmi aplikasi.
+Sistem Sengketa harus memungkinkan pengguna untuk memilih transaksi diperdebatkan (berdasarkan usia transaksi) dari antarmuka pengguna dan memulai sengketa (permintaan pengambilan tiket atau pemberitahuan tagihan) atas transaksi yang dipilih.
+Sistem Sengketa harus memberikan pengguna kemampuan untuk memulai satu kasus sengketa tunggal pada beberapa transaksi yang menjadi milik satu pedagang.
+Sistem Sengketa akan memberikan pengguna kemampuan untuk membuat atau memulai permintaan pengambilan tiket. Sebagai bagian dari proses pembuatan tiket, sistem harus meminta pengguna untuk memasukkan semua informasi yang diperlukan untuk membuat permintaan pengambilan tiket. Permintaan pengambilan tiket adalah dokumen yang dikirim ke pedagang yang menanyakan keabsahan transaksi.
+Sistem Sengketa harus memungkinkan pengguna untuk membuat tiga jenis permintaan pengambilan tiket yang unik. Ketiga jenis permintaan pengambilan tiket adalah (1) Permintaan tanda terima asli (2) Permintaan salinan tanda terima atau (3) Permintaan portofolio. Sebuah portofolio terdiri dari dokumentasi yang akan memberikan bukti pembelian seperti dokumentasi yang diterima dari agen penyewaan mobil yang lebih dari tanda terima penjualan.
+Sistem Sengketa harus mencegah pengguna eksternal meminta tanda terima asli. Permintaan untuk tanda terima asli dibatasi untuk pengguna internal.
+Sistem Sengketa harus memberikan konfirmasi kepada pengguna pada saat pembuatan permintaan pengambilan tiket yang berisi informasi berikut; nomor kasus sengketa, jenis pengambilan yang diminta (salinan asli atau portofolio) dan tanggal jatuh tempo pedagang.
+Sistem Sengketa akan memungkinkan pengguna untuk membuat atau memulai permintaan tagihan. Sistem harus meminta pengguna untuk memasukkan informasi yang diperlukan untuk memulai permintaan tagihan. Permintaan tagihan menghasilkan notifikasi tagihan yang dapat dicetak yang dikirim ke pedagang dan menunjukkan bahwa akun mereka akan ditagih kembali jika tidak ada bukti yang diberikan bahwa transaksi yang dipersengketakan adalah sah.
+Sistem Sengketa harus memberikan konfirmasi kepada pengguna pada membuat permintaan tagihan. konfirmasi harus berisi informasi berikut; nomor kasus sengketa, jenis tagihan yang diminta (tertunda atau langsung), dan tanggal jatuh tempo pedagang.
+Sistem Sengketa akan mencegah terciptanya duplikat permintaan sengketa 100% dari waktu.
+Sistem Sengketa harus akurat memberikan daftar kode alasan yang memungkinkan untuk transaksi yang diberikan. Daftar kemungkinan kode alasan harus diturunkan berdasarkan jenis transaksi dan industri yang menjadi milik pedagang sesuai dengan aturan bisnis yang ditetapkan untuk Sistem Sengketa.
+Sistem Sengketa harus menyediakan kemampuan untuk melihat kasus sengketa yang sudah ada.
+Sistem Sengketa harus menyediakan fungsionalitas pencarian. Metode pencarian harus mencakup kemampuan untuk mencari sesuai dengan (1) nomor kasus sengketa (2) nomor rekening pedagang (3) nomor rekening Anggota Kartu dan (4) nomor penerbit. Selain kriteria di atas, fungsionalitas pencarian lebih lanjut harus memungkinkan pengguna untuk membatasi hasil pencarian dengan rentang tanggal, jenis sengketa (permintaan pengambilan tiket atau pemberitahuan tagihan), status kasus (tutup terbuka atau semua) dan kode alasan sengketa.
+Daftar semua kasus sengketa yang memenuhi kriteria pencarian yang dimasukkan harus disediakan untuk pengguna. Daftar kasus harus membedakan jenis dan / atau status kasus tersebut dengan memberikan kode warna pada item baris dalam daftar. Misalnya semua kasus terbuka berwarna kuning dan semua kasus tertutup berwarna abu-abu.
+Sistem Sengketa harus menyediakan pengguna kemampuan untuk melihat riwayat dari semua kegiatan yang telah terjadi pada kasus sengketa.
+Sistem Sengketa harus menyediakan pengguna dengan kemampuan untuk menindaklanjuti kasus sengketa melalui tindakan tindak lanjut. Daftar tindak lanjut yang tersedia untuk kasus sengketa yang diberikan harus disaring oleh status kasus dan tingkat akses pengguna.
+Sistem Sengketa akan mencatat nama pengguna dan tanggal untuk setiap aktivitas membuat atau memodifikasi kasus sengketa dalam sistem. Riwayat rinci dari tindakan yang diambil pada kasus termasuk tanggal dan pengguna yang melakukan tindakan harus dipertahankan untuk tujuan audit.
+Untuk setiap tindakan sistematis (non-pengguna) yang terjadi pada kasus seperti proses penuaan sengketa kegiatan kasus akan dihasilkan. Setelah masuk berikutnya, pengguna yang memulai kasus sengketa harus diberitahu bahwa tindakan sistematis telah terjadi pada kasus sengketa.
+Semua permintaan surat harus diformat sesuai dengan pedoman yang ditetapkan oleh Sistem Print Letter Utility.
+Setiap sengketa kasus yang telah ditutup selama lebih dari 6 bulan harus dibersihkan dari basis data sengketa online.
+Sistem akan menyegarkan tampilan setiap 60 detik.
+Aplikasi akan mencocokkan warna tampilan yang ditetapkan oleh Departemen Keamanan Dalam Negeri
+Jika data diproyeksikan pada layar 10x10 , maka 90% pengguna harus mampu membaca data dari jarak pandang 30 cm
+produk harus dapat digunakan selama jam kerja normal. Jika pengguna memiliki akses ke sistem, maka sistem akan dapat digunakan selama  99% dari total waktu operasional, dalam waktu enam bulan pertama.
+Jika data diproyeksikan pada  layar 10x10, maka 90% pengguna harus dapat memahami data Acara atau Kegiatan yang terjadi dalam waktu saat ini dari jarak pandang 30 cm
+Aplikasi harus dapat memastikan  hanya pengguna yang berwenang yang dapat mengakses data. Aplikasi harus dapat membedakan antara pengguna yang berwenang dan tidak sah untuk semua jalur akses
+Produk harus intuitif dan jelas.  90% pengguna baru dapat menampilkan aktifitas dalam waktu 90 menit sejak mulai menggunakan produk tersebut.
+produk harus merespon cepat untuk tetap up-to-date data dalam layar.
+Sistem ini harus memiliki bentuk MDI yang memungkinkan untuk melihat grafik dan tabel data.
+Sistem ini akan ditampilkan Acara di meja vertikal dengan waktu.
+Sistem ini akan menampilkan Acara di sebuah grafik dengan waktu.
+Sistem ini akan ditampilkan Acara atau Kegiatan.
+ Layar harus memiliki dua area terdiri dari : 2/3 dari layar adalah grafis,  1/3 dari layar adalah tabel data
+Data yang ditampilkan di kedua node dalam grafik dan baris dalam tabel adalah data ringkasan MSEL
+Sisi meja layar akan dibagi menjadi 2 wilayah: sekuensial dan temporal.
+Bagian atas 1/4 dari tabel akan mengadakan acara yang terjadi secara berurutan.
+Bagian bawah 3/4 dari tabel akan mengadakan peristiwa yang terjadi menurut relevansinya dengan waktu saat ini.
+Sistem ini akan peristiwa kode warna sesuai dengan varians mereka dari waktu saat ini.
+Sistem ini akan menampilkan data dari Sync Matrix 1.0 dan Alat Manajemen Latihan 1.0 aplikasi
+Sistem ini dapat menghubungkan Events kembali ke salah satu Sync Matrix 1.0 atau Latihan Manajemen Alat 1.0 aplikasi untuk modifikasi.
+Sistem ini dapat memodifikasi tampilan.
+Sistem ini akan menawarkan tampilan semua Acara di latihan.
+Sistem ini akan menyaring data berdasarkan Venues dan kunci Acara
+Sistem ini akan memungkinkan pengguna untuk menentukan segmen waktu
+Sistem ini akan menampilkan waktu lokal dan latihan dalam jam terpisah
+Sistem ini akan memiliki kemampuan untuk berhenti-sementara (pause) dan melanjutkan data yang direfresh
+Sistem menyediakan grafik aktifitas atau kejadian terhadap asumsi waktu yang diberikan
+Sistem ini akan memberikan laporan rekam perubahan yang dibuat untuk aktifitas atau kejadian 
+Tampilan dan tema dari sistem harus sesuai dengan standar antarmuka perangkat pintar dari pengguna
+Tombol untuk navigasi menu harus memenuhi standar antar muka pengguna
+Sistem ini harus memiliki tampilan antar muka yang profesional
+produk harus memiliki skema warna dan font yang konsisten
+Sistem ini harus mudah digunakan oleh Realtors tanpa pelatihan.
+Sistem harus memiliki karakteristik intuitif dan mampu memberi penjelasan sendiri ( self explanatory ).
+Produk ini mudah dipelajari oleh makelar
+produk harus menggunakan simbol-simbol dan kata-kata yang dipahami secara alami oleh makelar
+Produk dapat  menghasilkan hasil pencarian dalam rentang waktu yang telah ditentukan
+Hasil pencarian akan dikembalikan selambat 30 detik setelah pengguna memasukkan kriteria pencarian
+produk akan menghasilkan laporan CMA dalam waktu yang telah ditentukan
+Laporan CMA akan dikembalikan selambat - lambatnya 60 detik setelah pengguna memasukkan kriteria laporan CMA.
+produk harus melakukan sinkronisasi kontak dan janji di waktu yang dapat diterima.
+Produk ini akan melakukan sinkronisasi dengan sistem kantor setiap jam.
+produk harus tersedia untuk digunakan 24 jam per hari 365 hari per tahun
+Dari 1000 akses ke sistem sistem tersedia 999 kali.
+Produk akan beroperasi dalam modus offline setiap kali koneksi internet tidak tersedia.
+produk akan memungkinkan pengguna untuk melihat download sebelumnya hasil pencarian laporan CMA dan janji.
+produk harus menyimpan preferensi pengguna dalam hal kegagalan.
+100% dari preferensi pengguna disimpan akan dipulihkan ketika sistem datang kembali online.
+produk harus dapat mendukung beberapa pengguna jarak jauh
+produk harus mampu dukungan 1000 pengguna secara simultan.
+produk harus mampu menangani pengguna yang ada 1000. Jumlah ini diperkirakan akan tumbuh 5 kali dalam tahun depan.
+Produk ini harus dipasang oleh makelar terlatih tanpa jalan lain untuk petunjuk secara terpisah-dicetak.
+90% dari pengguna (Realtors) yang belum mendapat pelatihan,  dapat menginstal produk pada perangkat tanpa menggunakan media bantuan dicetak
+Produk ini diharapkan berjalan pada sistem operasi Palm Windows CE dan.
+Hanya Pengguna (Realtors ) yang terdaftar yang dapat mengakses sistem.
+Setiap pengguna sistem harus otentikasi dan otorisasi.
+produk akan mencegah data dari data yang tidak benar diperkenalkan.
+Sistem ini dapat digunakan oleh seorang agen real estate untuk meminta informasi terkait MLS
+Pengguna dapat memberikan arah mengemudi ke alamat properti yang dipilih
+Pengguna  dapat men-download jadwal kesepakatan dan informasi kontak untuk klien
+Sistem ini akan menampilkan gambar properti yang sesuai dengan hasil pencarian
+Sistem dapat memperbaruhi atau membuat daftar  properti - properti baru di MLS
+Makelar dapat menghasilkan laporan CMA berdasarkan kriteria properti
+Sistem ini harus dapat menelepon penjual atau pembeli untuk menjadwalkan janji
+Makelar akan diberitahukan kesepakatan dengan klien baru setelah ada sinkronisasi secara otomatis dengan sistem yang di kantor
+Makelar harus dapat mengambil sebuah peta yang menunjukkan area lokasi properti  tertentu
+Sistem ini akan memberitahu makelar apabila ada seorang penjual atau pembeli yang merespon kesepakatan / janji
+produk akan memungkinkan pengguna untuk menyimpan hasil pencarian properti.
+Sistem ini harus mudah digunakan oleh Administrator Program / Keperawatan Anggota Staf.
+Semua pengguna harus dapat menggunakan sistem setelah satu hari pelatihan.
+Sistem ini akan membantu pengguna menghindari kesalahan pada waktu  penjadwalan kelas dan penajdwalan klinikal untuk mahasiswa keperawatan.
+Jumlah kesalahan dicatat oleh siswa akan menurun 50% pada tahun pertama.
+Sistem ini harus bersifat intuitif untuk Administrator Program / Keperawatan Anggota Staf.
+Sistem ini harus berhasil digunakan oleh 2 dari 3 Administrator Program / Staf Keperawatan Anggota  untuk mengelola penjadwalan kelas dan penjadwalan klinik.
+Sistem harus menggunakan simbol dan kata-kata yang dapat dipahami secara alami oleh komunitas pengguna.
+"Verbiage" digunakan dalam sistem harus konsisten dengan Standar bahasa Inggris dan terminologi Komunitas Keperawatan nasional.
+Staf anggota harus mampu menyelesaikan serangkaian tugas pada waktu yang telah ditentukan
+Waktu respons dari fitur manajemen umum siswa harus tidak lebih dari 5 detik dan waktu respon dari fitur pembuatan jadwal harus tidak lebih dari 30.
+Sistem ini harus dapat digunakan secara normal antara jam 08:00 dan 18:00.
+Sistem ini akan mencapai waktu 95% 
+Sistem harus dapat menangani semua permintaan pengguna dan dapat digunakan selama jam kerja.
+Sistem ini akan melayani 10 pengguna secara simultan 09:00-05:00.
+Sistem ini harus mampu memproses 100% dari mahasiswa keperawatan dan kelas mereka untuk 10 tahun ke depan.
+Sistem ini akan diharapkan untuk mengelola data program kurikulum keperawatan dan kelas atau penjadwalan klinis selama minimal 5 tahun.
+Sistem ini harus mampu beroperasi dalam lingkungan kantor bisnis yang khas dari Departemen Keperawatan di DePaul University.
+Sistem ini harus digunakan dalam spesifikasi yang ditentukan oleh komputer yang digunakan oleh Administrator Program / Keperawatan Anggota Staf.
+Sistem ini akan beroperasi dalam sistem operasi Windows XP Professional.
+Sistem ini akan antarmuka dengan server pusat CampusConnect ini
+Sistem ini akan antarmuka dengan fakultas server pusat.
+Sistem ini akan antarmuka dengan server master mahasiswa.
+Harus disediakan antarmuka untuk mengakses browser HTML.
+Hanya pengguna yang berwenang yang memiliki akses ke fitur informasi situs klinis.
+Administrator Program / Keperawatan Anggota Staf adalah satu-satunya orang yang akan memiliki akses ke klinik rincian situs.
+Hanya pengguna yang berwenang yang memiliki akses ke fitur informasi pribadi siswa.
+Dr Susan Poslusny dan Dr Julie Donalek adalah satu-satunya orang yang akan memiliki akses ke informasi pribadi siswa.
+Hanya pengguna yang berwenang harus memiliki akses ke bagian dari sistem yang interface dengan CampusConnect.
+Fit Kriteria: Dr Susan Poslusny dan Karen Sysol adalah orang yang memiliki akses kepenjadwalan akhir kelas untuk sistem yang berhubungan dengan CampusConnect.
+Sistem ini harus memiliki integritas data untuk mengurangi  data yang tidak benar atau tidak valid
+Sistem ini akan melindungi informasi pribadi sesuai dengan kebijakan organisasi.
+Sistem ini harus memiliki keamanan untuk menangani gangguan yang membahayakan sistem.
+Produk harus mendukung Internet Explorer versi 5.5 dan versi diatasnya
+Produk harus mendukung Mozilla Firefox Versi 1.0 dan versi diatasnya
+Produk harus berinteraksi dengan Sistem Bagian Pemilihan. Ini memberikan umpan data bagian daur ulang.
+produk akan berjalan pada perangkat keras yang ada untuk semua lingkungan.
+produk harus mematuhi pedoman Arsitektur perusahaan
+produk harus sesuai dengan Panduan Antarmuka Pengguna korporat
+produk harus sesuai dengan skema warna perusahaan
+Tampilan produk harus terlihat profesional
+Produk ini harus mudah digunakan oleh Penyesuai dan Pengukur Tumbukan. 95% dari Adjusters dan Collision Estimator akan menemukan produk ini mudah digunakan.
+produk akan meningkatkan produktivitas dari Pengukur Tumbukan. 80% dari Pengukur Tumbukan harus menyetujui produktivitas mereka memiliki peningkatan dalam waktu 1 bulan sejak menggunakan produk tersebut.
+Pengguna akan merasa puas menggunakan produk. 85% dari semua pengguna akan puas dengan produk.
+Produk harus mudah dipelajari oleh Penyesuai dan Pengukur Tumbukan. Produk harus dipelajari dengan dua hari pelatihan di tempat
+Pengguna akan dengan mudah menemukan petunjuk saat menggunakan produk. Bantuan pengguna dapat ditemukan dalam 90% dari sistem.
+Pencarian untuk bagian daur ulang akan memakan waktu tidak lebih dari 15 detik. Hasil pencarian akan dikembalikan di bawah 15 detik.
+Pencarian untuk fasilitas perbaikan yang disukai akan memakan waktu tidak lebih dari 8 detik. Pasilitas perbaikan yang disukai dikembalikan dalam 8 detik
+Laporan audit bagian daur ulang akan ditampilkan ke pengguna dalam waktu 10 detik. Laporan audit harus dikembalikan dalam waktu 10 detik.
+Peringkat fasilitas yang disukai harus disimpan dalam waktu 5 detik. Simpan akan terjadi dalam 5 detik.
+produk harus mematuhi jadwal ketersediaan online perusahaan. Aplikasi ini diturunkan hanya dalam 98% dari pemadaman terjadwal per jadwal ketersediaan.
+produk harus mencapai waktu aktif 98%. Produk tidak boleh gagal lebih dari 2% dari waktu online yang tersedia.
+produk harus mampu menangani hingga 1500 pengguna secara simultan. Sistem iniharus bekerja dengan 1500 pengguna dalam satu waktu.
+Jumlah rata-rata catatan bagian daur ulang per hari adalah 50000 .
+produk harus mampu menangani 10000 pengguna bersamaan dalam waktu 2 tahun dari awal peluncurannya.
+Untuk penduga produk harus dapat dioperasikan di fasilitas perbaikan selama kondisi kotor dan bising.
+Produk akan berinteraksi dengan sistem Bagian Pemilihan sekali sehari sekitar pukul 01:00.
+Pemeliharaan produk akan berada dalam jendela pemeliharaan korporat yang sudah pasti.
+produk harus didukung menggunakan pusat dukungan perusahaan.
+instalasi produk dan upgrade akan ditangani oleh tim teknologi middleware dalam waktu frame peluncuran didirikan.
+Hanya adjuster dapat meminta daur ulang laporan audit bagian. Tidak ada pengguna tanpa peran adjuster akan meminta daur ulang audit bagian.
+Hanya adjuster dengan peran pengawas dapat memperbarui peringkat fasilitas perbaikan yang lebih disukai. Pengguna tanpa peran pengawas tidak dapat mengakses peringkat fasilitas perbaikan.
+Hanya estimator tabrakan akan mencari bagian daur ulang. Pengguna tanpa peran tabrakan estimator tidak akan memiliki akses ke pencarian bagian daur ulang.
+Hanya data yang valid akan dimasukkan ke dalam sistem. Tidak ada data yang tidak valid akan dimasukkan ke dalam sistem.
+Salah satu perusahaan asuransi tidak akan dapat melihat companys asuransi lain mengklaim data.
+produk harus bebas dari virus komputer.
+Sistem ini akan mencegah serangan berbahaya termasuk penolakan layanan.
+Produk harus mematuhi Sarbanes-Oxley.
+produk harus sesuai dengan undang-undang estimatics yang berkaitan dengan penggunaan bagian daur ulang.
+Produk ini harus mematuhi peraturan asuransi mengenai pengolahan klaim.
+Pengguna harus mencari perbaikan fasilitas yang lebih disukai menggunakan kendaraan lokasi kendaraan dan jari-jari dalam mil
+Data kendaraan meliputi kendaraan tahun membuat dan model
+Lokasi kendaraan meliputi negara kota alamat jalan dan kode pos
+Sistem harus menyelesaikan kode pos untuk kota alamat jalan dan negara jika kode pos tidak diketahui.
+Radius pencarian harus antara 1 dan 30 mil
+Sistem ini akan menemukan fasilitas perbaikan yang disukai dengan peringkat tertinggi untuk kriteria masukan
+adjuster harus memasukkan fasilitas perbaikan yang lebih disukai pada tugas estimasi.
+adjuster harus dapat menimpa facitlity perbaikan disukai pada tugas estimasi.
+fasilitas perbaikan yang disukai akan kembali ke pengguna.
+Sistem ini akan kembali daftar fasilitas perbaikan dalam radius jika perbaikan fasilitas yang lebih disukai tidak dapat ditentukan.
+estimator harus mencari bagian daur ulang yang tersedia menggunakan rusak informasi suku cadang kendaraan.
+estimator harus mencari bagian daur ulang yang tersedia menggunakan daftar pemasok bagian disukai.
+Sistem ini akan mencari bagian daur ulang tersedia untuk bagian kendaraan yang disediakan dan pemasok.
+estimator harus mencari berdasarkan kode pos dengan radius 30 mil jika ada bagian yang ditemukan untuk pemasok bagian yang disukai
+Sistem ini akan mempertahankan bagian daur ulang yang tersedia dan pemasok kembali dari pencarian.
+Tersedia bagian informasi daur ulang dan pemasok mereka harus kembali ke pengguna.
+estimator berlaku bagian daur ulang terpilih untuk estimasi tabrakan.
+estimator tidak berlaku bagian daur ulang estimasi tabrakan jika tidak ada komponen yang tersedia dikembalikan.
+adjuster harus meninjau perkiraan tabrakan.
+adjuster harus meminta bagian pemeriksaan daur ulang dari perkiraan tabrakan.
+Hasil bagian pencarian daur ulang yang disediakan untuk estimator tersebut harus diambil oleh sistem.
+Sistem ini akan menghasilkan laporan audit berdasarkan pada bagian-bagian daur ulang yang tersedia dan perkiraan tabrakan.
+Laporan audit harus mencakup jumlah total bagian daur ulang yang digunakan dalam estimasi.
+Laporan audit harus mencakup jumlah bagian daur ulang yang tersedia dari hasil pencarian asli.
+Laporan audit harus mencakup persentase bagian daur ulang yang tersedia digunakan dalam estimasi 
+Laporan audit harus mencakup total skor audit yang merangkum item baris indivual.
+Laporan audit harus ditampilkan kepada pengguna.
+Laporan audit harus tersedia untuk adjuster lain pada titik-titik kemudian dalam waktu.
+Pengguna harus memilih untuk melihat peringkat fasilitas perbaikan yang lebih disukai.
+Peringkat perbaikan saat ini fasilitas akan ditampilkan kepada pengguna.
+sistem akan menampilkan satu set kosong peringkat jika tidak ada peringkat belum ditentukan.
+Pengguna akan masuk peringkat baru berdasarkan laporan audit
+Peringkat harus dari skala 1-10
+Peringkat meliputi kategori untuk digunakan percobaan bagian daur ulang dan penggunaan aktual dari bagian daur ulang
+Pengguna harus memilih untuk menyimpan peringkat fasilitas perbaikan yang lebih disukai.
+Peringkat perbaikan disukai fasilitas akan diselamatkan oleh sistem.
+Produk harus bekerja dengan kebanyakan sistem manajemen database (DBMS) di pasar apakah DBMS colocated dengan produk pada mesin yang sama atau terletak pada mesin yang berbeda pada jaringan komputer.
+Produk ini akan berfungsi bersama perangkat lunak server pada sistem operasi dimana runtime Java dapat diinstal.
+Produk ini akan membutuhkan kerjasama dengan sistem manajemen database (DBMS). DBMS mungkin terletak pada mesin yang sama dengan produk atau pada mesin yang terpisah yang berada pada jaringan komputer yang sama.
+Produk harus memanfaatkan teknologi web / aplikasi server. contoh open source termasuk Apache web server Tomcat dan server aplikasi JBoss.
+Sebuah sistem manajemen database seperti Oracle DB2 MySql atau HSQL perlu diintegrasikan dengan produk.
+Lihatlah produk dan Rasakan akan mampu menggabungkan aspek organisasi pelanggan seperti logo branding dan identitas
+produk harus memiliki penampilan konservatif dan profesional.
+produk akan membuat pengguna ingin menggunakannya. 80% dari pengguna yang disurvei laporan mereka secara teratur menggunakan produk setelah 2 minggu pertama pasca-peluncuran.
+Produk ini harus mudah digunakan. 90% dari pengguna akan dapat berhasil memesan ruang konferensi dalam waktu 5 menit dari penggunaan produk.
+produk akan memberikan pengguna umpan balik bila diperlukan. 80% dari pengguna yang disurvei melaporkan bahwa produk secara akurat menegaskan tindakan mereka.
+produk akan memungkinkan pengguna untuk memilih bahasa yang dipilih dari salah satu negara target pasar.
+produk akan memungkinkan untuk kustomisasi halaman awal dan pandangan preferensi.
+Seorang karyawan akan dapat berhasil menggunakan produk dalam beberapa menit. Setelah informal navigasi produk untuk kurang dari 15 menit pengguna akan dapat berhasil pertemuan setup dan ruang konferensi.
+produk harus menggunakan menu navigasi standar akrab bagi pengguna web yang paling.
+produk akan memungkinkan untuk pencarian intuitif ruang konferensi yang tersedia.
+produk harus sesuai dengan Amerika dengan Disabilities Act.
+Tanggapan harus cukup cepat untuk menghindari mengganggu aliran pengguna pemikiran. 90% dari tugas harus menyelesaikan dalam waktu 5 detik. 98% dari tugas harus menyelesaikan dalam waktu 8 detik.
+Selain dari kegagalan server produk perangkat lunak akan mencapai 99,99% waktu.
+produk akan membuat log pengecualian masalah yang dihadapi dalam produk untuk transmisi ke perusahaan kami untuk analisis dan resolusi.
+produk harus mampu menangani hingga 1 000 permintaan bersamaan. Jumlah ini akan meningkat menjadi 2 000 oleh Rilis 2. Kapasitas konkurensi harus mampu menangani puncak kali penjadwalan seperti pagi dan jam sore hari.
+produk harus mampu memproses 10 000 transaksi per jam dalam waktu dua tahun dari peluncurannya. Jumlah ini akan meningkat menjadi 20 000 dengan Release 2.
+produk harus diharapkan untuk beroperasi selama setidaknya 5 tahun untuk setiap instalasi pelanggan.
+Produk ini harus digunakan di lingkungan kantor.
+produk harus dapat antarmuka dengan browser HTML. produk harus mengirimkan data antara pengguna dan produk tanpa masalah. produk akan menampilkan HTML dengan benar di 80% dari semua browser HTML diuji (minimum adalah untuk menguji 8 browser).
+produk harus mampu berinteraksi dengan berbagai sistem manajemen database. produk harus berkomunikasi dengan sukses dengan sistem manajemen database pada 100% dari semua transaksi.
+produk harus mampu berinteraksi dengan berbagai server email. produk harus dapat mengirim email.
+produk harus tersedia untuk distribusi melalui Internet sebagai biner atau file ZIP.
+produk harus sangat dapat dikonfigurasi untuk digunakan dengan berbagai sistem manajemen database untuk pengguna akhir. 80% dari pengguna akhir dapat mengintegrasikan sistem manajemen database baru dengan produk tanpa mengubah kode software produk.
+rilis pemeliharaan akan ditawarkan kepada pelanggan setahun sekali. Rilis harus mengambil tidak lebih dari 5 menit untuk 80% dari basis pelanggan untuk menginstal.
+Setiap pengguna terdaftar akan memiliki akses ke situs dukungan produk melalui Internet. 70% dari pengguna terdaftar akan menemukan solusi untuk masalah mereka dalam waktu 5 menit dari menggunakan situs dukungan.
+Pelanggan akan dapat dengan mudah mengintegrasikan peta gedung baru dengan produk di seluruh siklus hidup produk. Integrasi peta baru dengan produk harus mungkin dengan sedikit atau tidak ada dukungan dari staf dukungan produk.
+produk harus diterjemahkan ke dalam bahasa asing selain bahasa negara-negara target pasar dalam rilis mendatang. Untuk setiap target pasar berkembang itu harus mengambil tidak lebih dari 5 hari untuk mengkonfigurasi produk untuk bahasa yang pasar.
+Produk ini diharapkan untuk mengintegrasikan dengan sistem manajemen database beberapa. Produk ini akan beroperasi dengan Oracle SQL Server DB2 MySQL HSQL dan MS Access.
+produk harus dapat diinstal dalam lingkungan operasi dalam waktu 2 hari.
+produk harus memastikan bahwa hanya karyawan perusahaan atau pengguna eksternal dengan ID pengguna perusahaan-disetujui mungkin memiliki akses produk. 100% dari semua login harus dengan baik karyawan perusahaan atau pengguna eksternal dengan ID pengguna perusahaan-disetujui.
+Hanya pengelola dapat melakukan permintaan pencarian untuk pemesanan oleh pengguna. 100% dari semua permintaan pencarian untuk pemesanan oleh pengguna harus dari login hanya login manajemen.
+produk harus memastikan bahwa data database sesuai dengan data yang dimasukkan oleh pengguna. Setiap konferensi reservasi di sistem akan berisi informasi yang sama seperti yang dimasukkan oleh pengguna.
+produk akan mencegah input data berbahaya. Produk dan / atau data yang berdekatan sistem hardware / software akan tetap 100% tidak rusak setiap kali data berbahaya adalah masukan ke dalam produk.
+Produk dan / atau tergantung database / filesystem akan tetap beroperasi sebagai hasil dari input data berbahaya. Produk dan / atau tergantung database / filesystem tidak akan kecelakaan 100% dari waktu yang data berbahaya adalah masukan ke dalam produk.
+Produk ini akan memiliki kemampuan untuk menerima pembaruan perangkat lunak otomatis sebagai ancaman baru muncul. 100% dari pelanggan akan dapat menerima pembaruan perangkat lunak otomatis dikirimkan ke produk diinstal.
+Bahasa produk harus mengakomodasi semua negara target pasar. 90% dari responden survei dari masing-masing negara target pasar akan menemukan bahwa bahasa produk diterima.
+produk harus mampu menampilkan tanggal dan waktu kalender sesuai dengan lokasi pengguna. 90% dari responden survei dari masing-masing negara target pasar akan menemukan bahwa tanggal dan waktu format produk yang benar.
+produk harus dikembangkan dengan J2SE / J2EE perpustakaan bahasa pemrograman
+produk akan merekam entri rapat.
+Produk ini akan memberitahu karyawan undangan rapat.
+Produk ini akan memiliki kemampuan untuk mengirim pengingat pertemuan untuk karyawan.
+produk menugaskan penyelenggara informasi kontak untuk setiap pertemuan yang mereka buat.
+Produk ini akan merekam pertemuan ucapan terima kasih.
+produk akan menyimpan ruang konferensi baru.
+produk akan memperbarui ruang konferensi yang ada.
+Produk ini akan mampu menghapus ruang konferensi.
+produk harus mampu menyimpan peralatan kamar baru.
+Produk ini akan memperbarui peralatan kamar yang ada.
+produk harus mampu menghapus peralatan kamar.
+produk akan memungkinkan organizer untuk mengundang karyawan lain untuk pertemuan.
+Setiap kali sebuah ruang konferensi dicadangkan jadwal konferensi harus diperbarui untuk mencerminkan waktu dan tanggal pemesanan.
+produk akan merekam status transportasi peralatan disediakan.
+produk akan menampilkan peta perusahaan membangun menunjukkan lokasi ruang konferensi.
+produk akan merekam diperbarui agenda pertemuan.
+Produk akan mengirimkan konfirmasi pertemuan dengan penyelenggara rapat.
+produk akan menampilkan peralatan kamar sesuai dengan parameter pencarian.
+produk akan menampilkan ruang konferensi menurut parameter pencarian.
+produk akan merekam jenis pertemuan yang berbeda.
+produk akan merekam semua peralatan yang telah disediakan.
+produk wajib memberitahukan personil bangunan permintaan peralatan transportasi.
+Produk ini akan memungkinkan pengguna priviledged untuk melihat jadwal pertemuan di beberapa pandangan pelaporan.
+produk harus dapat mengirim pemberitahuan pertemuan melalui berbagai jenis metode pengguna akhir yang ditentukan.
+produk harus memiliki Lihatlah disesuaikan dan Rasakan.
+produk harus memiliki antarmuka pengguna yang intuitif.
+Produk ini akan menampilkan status tersedia untuk ruang konferensi unreserved.
+Rekreasi Persediaan Penyesuaian Jumlah untuk periode 30 hari sebelumnya harus mengambil tidak lebih dari 30 menit.
+Sistem harus memungkinkan untuk minimal pengguna 6 untuk bekerja pada waktu yang sama.
+Sistem harus menggunakan peralatan komputer saat ini dimiliki.
+Sistem harus dapat secara otomatis cadangan data bisnis dan mengembalikan mereka pada permintaan.
+Sistem harus menjaga keamanan konsisten. Setiap perubahan dalam password pengguna dan / atau izin harus mengambil mempengaruhi di semua bagian dari Sistem.
+Sistem akan granularly mengontrol hak akses ke semua subsistem utama. Itu harus mungkin untuk mendapatkan hak akses ke semua subsistem independen.
+Sistem harus memenuhi semua standar akuntansi yang berlaku. Versi final dari sistem harus berhasil melewati audit independen yang dilakukan oleh auditor bersertifikat.
+Sistem tidak akan memerlukan lisensi pihak ketiga tambahan mengakibatkan biaya royalti.
+Sistem harus memungkinkan generasi Inventarisasi dokumen Penyesuaian Jumlah permintaan.
+Sistem harus memungkinkan pada generasi permintaan semua dokumen Penyesuaian Persediaan Jumlah sejak titik waktu tertentu.
+The IQA subsistem harus memperhitungkan status persediaan saat ini dan menyesuaikan persediaan bahan penebusan sesuai.
+Sistem harus memungkinkan memasuki menyimpan dan memodifikasi formula produk.
+formula produk harus memungkinkan penggunaan semi-produk yang memiliki formula sendiri.
+bahan rumus produk harus memungkinkan mendefinisikan bahan penebusan.
+Formula produk bahan penebusan akan dimasukkan secara otomatis oleh subsistem PFE.
+Bahan Rumus penebusan harus disimpan agar tetap bertahan
+ Produk akan memungkinkan memasuki menyimpan dan memodifikasi menu produk yang digunakan oleh terminal POS.
+PME Subsystem akan memungkinkan menu produk bangunan berdasarkan daftar produk disimpan dalam sistem akuntansi.
+PME Subsystem akan memungkinkan menjaga submenu dalam menu dan produk dalam submenu dalam urutan dikelola dan bertahan.
+PME Subsystem akan memungkinkan produk untuk ada di lebih dari satu submenu
+RMS Sistem harus memiliki Windows XP terlihat dan merasa dan menggunakan GUI berjangka membuat penggunaannya intuitif.
+Sistem akan menghasilkan dokumen Penyesuaian Persediaan Jumlah berdasarkan produk sehari-hari data penjualan dan formula produk.
+Sistem akan menghasilkan dokumen Penyesuaian Persediaan Jumlah otomatis ketika data Produk harian Penjualan tersedia.
+Administrator akan dapat mengaktifkan kartu pra-bayar melalui bagian Administrasi di bawah 5 detik.
+ Nasabah dapat memeriksa status kartu prabayar mereka dengan memasukkan dalam nomor PIN di bawah 5 detik.
+Sistem akan membiarkan pelanggan mendaftar di website sebagai pengguna “bayar karena Anda pergi” di bawah 5 menit.
+Sistem akan membiarkan pelanggan mendaftar di website sebagai pengguna “unlimited film pelanggan” di bawah 10 menit.
+Sistem akan membiarkan pelanggan yang sudah ada login ke website dengan alamat email dan password mereka di bawah 5 detik.
+Sistem akan membiarkan pelanggan membatalkan proses account mereka harus mengambil tidak lebih dari 2 menit. Database akan menandai akun sebagai tidak aktif dan pengguna tidak akan dapat login ke situs web.
+Sistem akan membiarkan administrator de-mengaktifkan account pelanggan di bawah 1 menit. Pelanggan tidak akan lagi dapat mengakses website.
+Sistem akan membiarkan administrator menambahkan / menghapus film di website di bawah 5 menit. informasi film dimasukkan akan disimpan dalam database dan sekarang akan tersedia di website.
+Sistem akan membiarkan administrator menambah / menghapus kategori di website di bawah 5 menit.
+Sistem akan membiarkan penjualan akses Izogn Manager dan statistik penggunaan di bawah 2 menit.
+Sistem akan membiarkan administrator menghasilkan pra-bayar pin unik di bawah 2 menit dan menghasilkan file Excel dengan PIN yang dihasilkan.
+Website harus menarik bagi semua khalayak. website akan muncul untuk menjadi menyenangkan dan warna harus cerah dan bersemangat.
+website harus memiliki nuansa Afrika tetapi tidak harus mengasingkan non-Afrika. Website harus menggunakan animasi pada halaman yang menggambarkan layanan untuk merebut perhatian pengguna dan mendorong mereka untuk mendaftar.
+ Desain website harus menjadi modern bersih dan ringkas.
+produk harus dapat digunakan oleh 90% dari pengguna pemula di Internet.
+ Pengguna hanya harus menavigasi melalui maksimal 4 halaman untuk membuat account dengan situs web.
+Pengguna harus dapat mengakses streaming film mereka di bawah 2 klik setelah log in ke situs web.
+Sebuah survei anonim akan menunjukkan bahwa 70% dari pelanggan yang nyaman film beli Streaming setelah 2 minggu menggunakan website.
+Sebuah survei anonim akan menunjukkan bahwa 95% dari pelanggan nyaman menggunakan dan membeli kartu pra-bayar setelah sebulan menggunakan sistem.
+produk harus menyimpan preferensi pembelian pelanggan dan informasi.
+Produk ini akan mudah bagi pelanggan dengan keterampilan pemula di internet untuk membeli dan menonton film streaming. Pelanggan harus mampu untuk membeli dan menonton film yang telah ditentukan di bawah 3 menit.
+produk harus menggunakan simbol-simbol dan kata-kata yang secara alami dapat dimengerti oleh pengguna akrab dengan situs web
+Situs ini akan menggunakan konvensi standar Internet saat berinteraksi dengan pengguna.
+ Setiap antarmuka antara pengguna dan sistem otomatis akan memiliki waktu respon maksimum 5 detik kecuali dicatat oleh pengecualian di bawah ini.
+ Ketika membeli kartu streaming film atau pra-bayar melalui kartu kredit waktu pemrosesan harus memiliki waktu respon maksimal 15 detik.
+ Saat streaming film waktu penyangga harus mengambil tidak lebih dari 10 detik (ditambah latency pada koneksi pengguna.)
+ Sementara streaming penyangga film seharusnya hanya terjadi jika ada latency sehubungan pengguna.
+Semua informasi kartu kredit akan dijamin pada server dan hanya dapat diakses oleh administrator Izogn berwenang. Informasi akan dienkripsi dalam database.
+ Website harus tersedia untuk digunakan 24 jam per hari 365 hari per tahun.
+Website akan mencapai 99,5% waktu.
+ Semua film akan dialirkan pada permintaan pada setiap saat sepanjang hari.
+Website akan terus beroperasi jika server streaming turun.
+Website akan terus beroperasi jika gateway pembayaran turun.
+Server streaming akan mendukung 50 koneksi streaming yang simultan.
+Server streaming akan mendukung maksimal 700 film; server baru dapat ditambahkan untuk mendukung lebih banyak film.
+Server akan mendukung maksimal 1000 pengguna simultan.
+Situs web harus mampu mendukung 100.000 pelanggan.
+Produk diharapkan beroperasi dalam anggaran perawatan maksimum selama minimal 2 tahun.
+Semua aspek situs web harus diakses oleh browser web melalui Internet.
+Perangkat keras yang sama yang mendukung situs web saat ini akan digunakan untuk mendukung sistem baru.
+Kita harus dapat berinteraksi dengan browser berikut: IE 5.X 6.0 Netscape 6.x 7.x 8.x dan Firefox 1.0.
+Situs web harus berinteraksi dengan CyberSource API untuk memproses transaksi kartu kredit.
+Situs web harus sepenuhnya operasional dengan MSN TV2.
+Film harus dikodekan dan streaming melalui Windows Media Player 9.0.
+Film harus dikodekan untuk stream 56k dan 256k.
+Pembaruan promosi ke situs web perlu satu hari untuk diperbarui.
+Administrator Izogn harus dapat memperbarui daftar kategori di situs web dalam waktu 2 menit.
+Administrator Izogn harus dapat menambahkan produk baru ke situs web dalam waktu 2 menit.
+Sistem ini akan memberikan nomor bebas pulsa 800 jam 24 jam untuk dukungan kepada pelanggannya.
+Situs web akan menyediakan bagian bantuan dengan jawaban dan solusi untuk masalah umum.
+Staf Velkat akan tersedia untuk dukungan telepon antara jam 7 pagi sampai 7 malam M-F untuk memberikan dukungan teknis kepada administrator Izogn.
+Produk harus dapat dipasang di lingkungan yang ditentukan dalam 1 hari kerja.
+Hanya pelanggan terdaftar yang dapat membeli film streaming.
+Pelanggan hanya dapat melakukan streaming film jika mereka membelinya dan berada dalam periode menonton 2 hari.
+Hanya personel yang berwenang yang dapat mengakses catatan pelanggan dalam database.
+Hanya administrator yang dapat mengaktifkan kartu pra-bayar.
+Hanya personel yang berwenang yang dapat mengakses informasi penjualan.
+Situs web harus mencegah data dari rusak ketika data yang dimasukkan salah.
+Situs web harus melindungi dirinya dari penyalahgunaan yang disengaja dan memberi tahu administrator jika ada kejadian.
+Skrip integritas data akan dijalankan setiap minggu untuk memverifikasi integritas basis data.
+Situs web harus membuat penggunanya mengetahui praktik informasinya sebelum mengumpulkan data dari mereka melalui Kebijakan Privasi yang dapat diakses di semua halaman situs web.
+Sistem harus memberi tahu pelanggan tentang perubahan kebijakan informasinya.
+Sistem harus mengungkapkan informasi pribadi hanya sesuai dengan kebijakan informasi organisasi.
+Semua informasi pelanggan akan disimpan pada basis data aman yang hanya dapat diakses oleh personel yang berwenang.
+Semua informasi kartu kredit akan dienkripsi dalam database.
+Server streaming akan memiliki perangkat lunak anti-virus untuk mencegah infeksi virus berbahaya.
+Situs web tersebut harus melayani semua suku di Nigeria.
+Situs web tidak boleh menyinggung kelompok agama atau etnis.
+Situs web harus menarik bagi semua orang Afrika tidak hanya Nigeria.
+Situs web harus menggunakan Flash untuk memberikan animasi pada halaman beranda.
+IzognMovies harus memenuhi persyaratan lisensi yang ditetapkan oleh organisasi yang sesuai untuk melakukan streaming film Afrika.
+Situs web akan mematuhi standar W3C.
+Kode PHP akan mematuhi standar PEAR.
+Situs web ini akan memungkinkan pelanggan untuk mencari film berdasarkan aktor atau sutradara.
+melihat detail film situs web akan menampilkan aktor dan sutradara deskripsi film yang dimasukkan oleh administrator.
+Situs web akan meminta dan mengesahkan pembayaran kartu kredit sebelum mengizinkan pengguna untuk memutar film.
+harus dapat melakukan streaming film yang dibeli melalui Windows Media Player hingga 2 hari setelah tanggal pembelian.
+Situs web akan memungkinkan pelanggan untuk menelusuri film berdasarkan kategori yang dimasukkan oleh administrator izogn.
+Situs web akan memungkinkan pelanggan untuk melihat ulasan film yang dipilih oleh pelanggan lain.
+Situs web akan memungkinkan pelanggan untuk menambahkan ulasan film mereka sendiri untuk film yang dipilih.
+Situs web akan mengizinkan administrator Izogn untuk menyetujui ulasan yang diposting oleh pelanggan.
+Sistem akan memungkinkan pelanggan membayar film streaming dengan kartu pra-bayar.
+Situs web akan memungkinkan pelanggan untuk membeli kartu pra-bayar senilai $ 5 $ 10 atau $ 20 baik dengan kartu kredit atau opsi pembayaran melalui surat.
+Sistem akan secara otomatis memperbarui halaman utama situs web setiap hari Jumat dan menunjukkan 4 film terbaru yang telah ditambahkan ke situs web.
+Sistem akan memungkinkan pengguna untuk memperbarui informasi tagihan dan kontak mereka melalui bagian “Akun Saya” dari situs web.
+Kartu prabayar didistribusikan melalui email atau kartu kertas cetak.
+Hanya pelanggan terdaftar yang dapat membeli film streaming.
+Film hanya dapat dialirkan jika pelanggan telah membeli film dan berada dalam periode 2 hari untuk melakukan streaming film.
+Situs web harus dapat mendukung periode percobaan gratis dengan berbagai parameter yang ditetapkan oleh Manajer Izogn.
+Semua penjualan film streaming akan dicatat dalam basis data dan dapat diakses oleh administrator.
+Semua informasi pelanggan yang terdaftar harus disimpan dan disimpan dalam database bahkan setelah pelanggan membatalkan akun mereka.
+Statistik penggunaan harian harus dicatat dan dapat diakses oleh administrator.
+Pemilik harus memiliki akses gratis ke semua film streaming.
+Total waktu siklus timbal harus diselesaikan dalam 5 menit untuk 90% volume timah antara jam kerja 8:00 CST hingga 8PM CST; kemudian 3 menit untuk 99% volume timah selama jam kerja.
+Tidak ada evaluasi lead yang akan selesai dalam periode waktu lebih dari 25 detik untuk 97% dari semua lead diproses.
+Untuk lead yang prosesnya lebih lama dari 25 detik sistem akan merekam acara dan durasi
+Proses harus sesuai dengan kondisi waktu pemrosesan yang ditetapkan oleh proses Penugasan Rep Otomatis di mana timah ditempatkan dalam waktu 3 menit dari siklus hidup total.
+Proses pencucian timbal akan beroperasi dalam struktur layanan web fisik yang sudah mapan.
+ Proses pencucian harus menggunakan format data netral yang tidak mengikat seperti xml saat menerima dan memproses data timbal.
+Laporan yang cacat akan tersedia untuk unit teknis berdasarkan 24x7.
+Parameter pencucian akan diperbarui selama jam perawatan terjadwal.
+Vendor akan memverifikasi lead yang tidak valid.
+Vendor akan menyerahkan catatan validasi kredit untuk diterapkan pada sistem penagihan perusahaan.
+Jika suatu lead dinilai ke kisaran tinggi, sistem akan memasok data lead dan skor ke sistem perusahaan.
+Fungsionalitas cuci lead akan memvalidasi semua lead yang diterima oleh layanan web untuk data yang valid
+Fungsionalitas mencuci lead akan memasukkan semua lead yang ditangkap oleh layanan web.
+Jika skor lead berada dalam skor rata-rata tinggi maka akan diproses oleh fungsionalitas ARA.
+Jika skor arahan berada dalam rata-rata sedang maka akan ditetapkan untuk verifikasi manual oleh Koordinator Pendaftaran melalui sistem eleads.
+Jika skor lead jatuh dalam rata-rata rendah maka akan dikembalikan ke vendor pemasok
+Fungsi pencucian timbal akan mengkompilasi informasi kontak dan penilaian akademik untuk skor total.
+Fungsi pencucian timah akan menggunakan parameter yang disediakan oleh perusahaan dan sekolah untuk mencetak bagian dari timah hitam.
+Fungsi pencucian timah akan mengembalikan data timah yang dipasok ke vendor beserta alasan penolakannya.
+Fungsi pencucian timah akan memiliki antarmuka di mana parameter data timah dapat dipertahankan.
+Fungsi pencucian timbal akan memverifikasi otentikasi pengguna dan hak untuk melakukan pembaruan parameter.
+Fungsi pencucian timah hitam akan menyimpan potensi duplikat timah yang dikembalikan oleh sistem perusahaan.
+Sebelum mengirimkan lead ke sistem perusahaan, fungsionalitas mencuci lead akan menugaskan lead ke perwakilan penerimaan.
+Fungsionalitas pencucian timah hitam akan menerima daftar periode repetisi yang tersedia dari sistem perusahaan.
+Produk harus mensimulasikan tampilan kapal di laut.
+Produk harus menampilkan kisi-kisi dalam lingkaran sebagai tampilan dari periskop.
+Produk harus menampilkan setiap jenis kapal dalam kisi menggunakan gambar jenis kapal tertentu.
+Ketika pemain ofensif melakukan tembakan, produk harus mensimulasikan suara kapal di laut.
+Ketika sebuah tembakan ditandai sebagai kehilangan, produk harus mensimulasikan suara tembakan yang kehilangan targetnya.
+Ketika tembakan ditandai sebagai klik, produk harus mensimulasikan suara tembakan yang mengenai targetnya.
+Ketika kapal tenggelam, produk harus mensimulasikan suara kapal yang tenggelam.
+Produk harus tersedia 24 jam sehari, tujuh hari seminggu.
+Produk harus dapat menangani sejumlah besar game secara bersamaan.
+Waktu respons harus cukup cepat untuk mempertahankan alur permainan. Waktu respons tidak boleh lebih dari 2 detik untuk 95% dari tanggapan dan tidak lebih dari 4% untuk sisa tanggapan.
+Produk harus melindungi identitas pemain. Produk harus memberikan pemain tidak ada akses ke informasi yang dapat mengungkapkan identitas pemain lain.
+Produk harus intuitif dan jelas. Sembilan dari sepuluh pengguna harus berhasil menyelesaikan permainan tanpa pelatihan.
+Produk harus tersedia untuk pemain yang mengerti bahasa Inggris Spanyol dan Perancis. Produk akan memungkinkan pengguna untuk memilih bahasa setelah mengakses produk.
+Produk harus memberikan pemain tidak ada akses ke informasi yang dapat mengungkapkan identitas pemain lain
+Waktu respons harus cukup cepat untuk mempertahankan alur permainan. Waktu respons tidak boleh lebih dari 2 detik untuk 95% dari tanggapan dan tidak lebih dari 4% untuk sisa tanggapan.
+Produk harus memelihara daftar pemain.
+Produk harus memungkinkan pengguna untuk mengidentifikasi dirinya sebagai pemain.
+Setelah permainan dimulai, produk harus membuat para pemain yang ditugaskan untuk permainan tidak tersedia untuk dipilih dari daftar pemain.
+Produk akan memungkinkan pengguna untuk menghapus dirinya sendiri dari daftar pemain setiap saat.
+Produk harus membuat pemain tidak aktif tidak tersedia untuk dipilih dari daftar pemain.
+Produk harus menghapus pemain yang tidak aktif selama 24 jam dari daftar pemain.
+Produk harus mengizinkan pemain untuk memulai permainan dengan memilih pemain lain yang tersedia dari daftar pemain.
+Setelah permainan dimulai, produk harus menampilkan garis pertahanan untuk masing-masing pemain
+Setelah permainan dimulai, produk harus menampilkan kisi ofensif untuk setiap pemain.
+Produk harus mencegah pemain melihat grid ofensif atau defensif dari pemain lain.
+Setelah permainan dimulai, produk harus memungkinkan setiap pemain untuk memposisikan 5 kapal mereka di kisi pertahanan masing-masing.
+Produk harus memungkinkan pemain untuk memposisikan kapal secara horizontal pada kisi mereka.
+Produk harus memungkinkan pemain untuk memposisikan kapal secara vertikal pada kisi mereka.
+Produk harus memungkinkan pemain untuk memposisikan kapal secara diagonal pada kisi mereka
+Produk harus mencegah pemain dari tumpang tindih kapal di grid mereka.
+Ketika kedua pemain memposisikan 5 kapal mereka di kisi pertahanan mereka, produk harus menentukan status masing-masing pemain untuk giliran pertama.
+Untuk setiap belokan produk harus mengidentifikasi satu pemain sebagai status ofensif dan satu pemain sebagai status defensif.
+Produk harus mempertahankan status masing-masing pemain untuk giliran ofensif atau defensif.
+Pada awal setiap belokan, produk akan memberi tahu setiap pemain tentang statusnya.
+Untuk setiap belokan, produk harus memungkinkan pemain ofensif menentukan tembakan.
+Untuk setiap tembakan, produk harus memeriksa kisi pertahanan pemain defensif untuk menentukan apakah tembakan itu mengenai sasaran atau gagal.
+Untuk setiap tembakan, produk harus memberi tahu para pemain apakah tembakan itu mengenai sasaran atau gagal.
+Untuk setiap tembakan, produk harus menandai tembakan sebagai pukulan atau kekalahan di kotak pertahanan pemain defensif.
+Untuk setiap tembakan, produk harus menandai tembakan sebagai pukulan atau kekalahan di kotak ofensif pemain ofensif.
+Ketika hit menyebabkan kapal tenggelam, produk harus memberi tahu para pemain bahwa kapal itu tenggelam.
+Ketika hasil hit dalam menenggelamkan kapal produk harus menandai kapal tenggelam di grid defensif pemain defensif.
+Ketika hasil hit dalam menenggelamkan kapal produk harus menunjukkan jenis kapal yang tenggelam di grid defensif pemain defensif.
+Ketika hasil hit dalam menenggelamkan kapal produk akan menandai kapal tenggelam di grid ofensif pemain ofensif.
+Jika tembakan ditandai sebagai klik, produk akan memungkinkan pemain ofensif menentukan tembakan.
+Jika tembakan ditandai sebagai kehilangan, produk akan mengubah status pemain ofensif menjadi defensif
+Jika tembakan ditandai sebagai kehilangan, produk harus mengubah status pemain bertahan menjadi ofensif
+Produk akan terus menetapkan belokan hingga game berakhir.
+Produk akan mengakhiri permainan ketika sebuah pukulan oleh pemain ofensif menghasilkan tenggelamnya kapal pemain defensif terakhir yang sebelumnya tidak ditandai sebagai hangus.
+Produk harus memungkinkan pemain untuk mengakhiri permainan setiap saat selama pertandingan.
+Ketika sebuah permainan berakhir, produk harus memberi tahu para pemain bahwa permainan itu berakhir.
+Pemberitahuan akhir permainan akan mencakup alasan permainan berakhir (mis. Seorang pemain telah memenangkan permainan atau seorang pemain telah mengakhiri permainan).
+Ketika permainan berakhir, produk harus memungkinkan setiap pemain untuk mengidentifikasi dirinya sebagai pemain yang tersedia dalam daftar pemain.
+Ketika permainan berakhir, produk harus memungkinkan setiap pemain untuk menghapus dirinya sendiri dari daftar pemain.
+Sistem harus mudah digunakan oleh penelepon dan penyelia. Penelepon dan pengawas harus mampu menyelesaikan tugas sistem apa pun dalam waktu 2 menit.
+Sistem harus mudah dipelajari oleh penelepon dan penyelia. Penelepon dan pengawas harus belajar cara menggunakan sistem dalam waktu 10 menit.
+Sistem harus responsif. Di DePaul TeleServices Center ketika penyelia menggunakan sistem untuk melihat jadwal penelepon, waktu respons sistem harus tidak lebih dari 2 detik, 90% dari waktu dan tidak lebih dari 5 detik dari sisa waktu.
+Pada koneksi 56k, waktu respons sistem untuk semua operasi harus tidak lebih dari 6 detik 90% dari waktu.
+Pada koneksi 112k atau lebih cepat, waktu respons sistem untuk semua operasi harus tidak lebih dari 3 detik, 90% dari waktu.
+Sistem harus memiliki ketersediaan tinggi setiap hari dalam setahun. Sistem harus tersedia untuk digunakan antara pukul 12:00 dan 18:00 sepanjang hari sepanjang tahun.
+Sistem harus tersedia untuk digunakan antara pukul 07:00 dan 23:59 sepanjang hari sepanjang tahun.
+Produk harus independen dari peramban internet. Produk harus dijalankan menggunakan Internet Explorer dan Netscape Navigator.
+Produk harus memastikan bahwa hanya pengawas yang dapat mengiklankan slot waktu kosong. Produk harus memastikan bahwa pengawas diizinkan untuk mengakses slot waktu kosong mengiklankan.
+Produk harus memastikan bahwa hanya pengawas yang dapat memasukkan jadwal pemanggil. Produk harus memastikan bahwa pengawas diizinkan untuk mengakses slot waktu kosong yang beriklan.
+Produk harus memastikan bahwa hanya pengawas yang dapat melihat jadwal semua penelepon. Produk harus memastikan bahwa pengawas diizinkan untuk mengakses slot waktu kosong yang beriklan.
+Antarmuka harus memiliki tampilan yang sederhana. Dalam antarmuka dan survei kegunaan, 90% penguji beta harus melaporkan bahwa antarmuka cukup sederhana.
+Antarmuka harus menarik bagi penelepon dan pengawas. Dalam survei antarmuka dan kegunaan, 80% penguji beta harus melaporkan bahwa antarmuka tersebut menarik.
+Produk harus menyediakan Layanan Pemantauan berbasis GUI. Administrator Sistem harus memantau pertukaran pesan yang akan memprediksi dan menentukan masalah dan juga akan memberikan dukungan internal dan eksternal.
+Produk harus mematuhi Kerangka Panduan Pengembangan Aplikasi Kota Chicago. Kerangka Pengembangan Aplikasi akan menyediakan Antarmuka Pengguna Grafis terstruktur.
+Produk harus menyediakan Layanan Pemantauan. Produk harus mudah bagi Administrator Sistem dan DBA untuk digunakan setelah dua minggu penggunaan.
+Produk harus menyediakan Layanan Pelacakan Kesalahan. Produk ini akan membantu Administrator Sistem dan DBA untuk menyelesaikan kesalahan transaksi 99% dari waktu.
+Produk harus menyediakan Portal. Produk akan membantu Administrator Sistem untuk menganalisis transaksi dengan pelaporan ad-hoc dan KPI (Indikator Kinerja Utama)
+Produk harus menyediakan Pesan Asinkron. Produk harus menyediakan pesan asinkron untuk memungkinkan pemrosesan paralel dan mengurangi overhead dalam komunikasi
+Produk harus menyediakan Multi-threading dan Load Balancing. Produk ini harus menyediakan teknologi multi-threading serta load balancing untuk mengatasi lonjakan dan lalu lintas beban data.
+Produk akan memproses pesan dalam waktu 2 detik. Produk harus memiliki waktu pemrosesan pesan maksimum 2 detik
+Produk akan melakukan polling sistem untuk pesan setiap detik. Produk ini akan polling sistem untuk pesan baru maksimal setiap 1 detik.
+Produk harus menyediakan Dukungan Perubahan Dinamis dan penambahan sumber daya transparan. Produk harus mendukung penambahan Sumber Daya Transparan dan dukungan Perubahan Dinamis untuk memberikan skalabilitas dan menghindari gangguan layanan lebih dari 1 hari.
+Produk harus tersedia 99% dari waktu. Dasar Pemikiran: Untuk menghindari gangguan layanan selama periode respons layanan pelanggan tersibuk. Produk harus tersedia 99,99% dari waktu untuk hari kerja reguler.
+Produk harus kuat. Produk harus memiliki penghindaran kesalahan berdasarkan adopsi standar.
+Produk harus kuat dengan toleransi kesalahan. Produk harus memiliki toleransi kesalahan dengan menggunakan teknik pemulihan, transaksi kompensasi, dan perutean di sekitar kegagalan.
+Produk harus dapat memproses semua transaksi. Produk harus memproses minimal 1 juta transaksi khusus untuk per tahun.
+Produk harus independen terhadap platform. Produk harus memungkinkan akses ke segala jenis lingkungan dan platform pengembangan.
+Produk akan menghubungkan CSR dan Datastream. Produk akan bertukar pesan antara CSR dan EAM secara real time tanpa antarmuka langsung antara dua sistem.
+Produk harus terus beroperasi selama perubahan peningkatan atau penambahan sumber daya baru. Produk harus dapat terus beroperasi tanpa gangguan dalam layanan karena penambahan sumber daya baru.
+Produk harus diperbarui secara berkala. Produk akan memiliki fitur utama baru yang diperkenalkan setiap enam bulan dan rilis pemeliharaan triwulanan setiap enam bulan.
+Produk harus beroperasi dengan setiap platform. Produk harus mengakomodasi teknologi baru tanpa perubahan dalam arsitekturnya.
+Produk harus memiliki keamanan. Produk harus memberikan otentikasi dan otorisasi.
+Produk akan memberi informasi Keamanan. Produk harus mengaktifkan privasi dengan enkripsi WS-Security dan Integrity Checking.
+Produk harus memiliki kemampuan audit. Produk harus menyimpan pesan selama minimal satu tahun untuk keperluan audit dan pelacakan transaksi.
+Sistem akan menggunakan standar pencitraan merek IBM dan CCR. Antarmuka harus memiliki satu logo IBM dan satu logo CCR.
+Sistem harus dapat ditampilkan pada komputer kerja apa pun yang mungkin dimiliki oleh pengguna CCR. Antarmuka sistem harus diformat untuk ditampilkan pada resolusi 800 x 600 piksel.
+Antarmuka sistem akan menggunakan nomenklatur CCR. Sistem harus menggunakan nomenklatur yang sama dengan yang digunakan dalam sistem dan laporan WCS yang ada
+Antarmuka harus meringkas data dengan cara yang menarik bagi manajemen CCR. Setiap jenis laporan harus memiliki setidaknya satu ringkasan tingkat tinggi yang ditampilkan di dasbor / antarmuka hasil
+Sistem harus menggunakan antarmuka titik dan klik. 100% dari semua fungsi seleksi dan navigasi harus dapat diaktifkan / dipilih oleh mouse atau keyboard
+Antarmuka harus mudah digunakan. 90% pengguna harus berhasil menggunakan sistem untuk menghasilkan laporan tentang penggunaan pertama mereka. Antarmuka harus mematuhi standar kegunaan IBM.
+Laporan harus mudah dibuat. eport harus dihasilkan dalam satu klik tombol dan diekspor dalam satu klik tombol (setelah memilih laporan)
+Seorang pengguna harus dapat menggunakan sistem tanpa instruksi setelah waktu singkat. Setelah satu penggunaan, pengguna harus memahami dan mengingat 90% dari penggunaan sistem dan navigasi.
+Semua pengguna CCR harus menerima pelatihan sebelum sistem WCS digunakan. Satu sesi pelatihan akan diadakan untuk 100% pengguna CCR sebelum penerapan sistem (berdasarkan pada pengguna CCR yang tersedia)
+Sistem WCS harus menggunakan nomenklatur dan terminologi yang tepat sebagaimana didefinisikan oleh organisasi Corporate Community Grants. Semua antarmuka dan laporan akan menjalani tes kegunaan oleh pengguna CCR.
+Sistem WCS harus tersedia setiap saat selama W3 intranet internal IBM dapat diakses. Sistem WCS akan tersedia 95% dari waktu W3 intranet internal IBM tersedia.
+Sesuai dengan bisnis proses aturan yang telah ditetapkan perusahaan, persetujuan cuti seorang karyawan hanya dapat dilakukan oleh atasan langsung. Oleh karena itu, posisi seorang karyawan akan terpetakan pada LDAP yang telah didefinisikan sebelumnya tentang hirarki posisi karyawan tersebut didalam perusahaan
+Sistem WCS harus memiliki kemampuan untuk menghubungkan database WCS lain yang ditunjuk saat ini tidak termasuk dalam sistem.
+Sistem WCS harus memiliki kemampuan untuk memasukkan data untuk wilayah di luar Amerika Serikat dan diakses oleh pengguna di luar Amerika Serikat jika disetujui oleh manajemen CCR.
+Sistem WCS harus dijalankan di lingkungan Windows. WCS akan diakses oleh pengguna melalui Internet pada komputer IBM yang menjalankan sistem operasi Windows 2000 atau di atasnya.
+Bagian Brio dari sistem WCS harus dapat mengekspor file dalam bentuk spreadsheet (format Microsoft Excel dan Lotus 1-2-3). Brio akan menyediakan tombol di antarmuka pengguna yang menghasilkan / mengekspor laporan dalam format file .xls atau .123.
+Sistem WCS harus menjalankan kueri ke basis data WCS sekali lagi (pada hari tertentu) untuk memperbarui data yang tersedia yang tersedia untuk pengguna CCR. Pertanyaan harus dibuat ke basis data eksternal untuk penyegaran data seminggu sekali.
+Semua perubahan pembaruan dan penambahan pada sistem WCS harus diperbarui dalam Pengembang WCS dan Panduan Pengguna WCS. Setiap perubahan harus tercermin dalam dokumentasi sistem WCS
+Sistem ini hanya dapat diakses oleh karyawan Corporate Corporate Grants (CCR) resmi. Pengguna harus diautentikasi menggunakan nama pengguna dan kata sandi IBM intranet mereka.
+Sistem WCS tidak akan mengizinkan login otomatis oleh pengguna mana pun. Cookie yang berisi informasi login WCS tentang pengguna tidak akan disimpan di komputer pengguna.
+Setiap pemilik tim perlu menggunakan nama pengguna dan kata sandi untuk diautentikasi untuk mencapai halaman pemilik tim
+Komisaris akan menjadi satu-satunya pengguna yang diizinkan per liga untuk menyesuaikan pengaturan liga.
+Setiap halaman harus berisi menu navigasi yang menunjukkan indeks di mana halaman saat ini terkandung.
+Setiap halaman harus berisi format yang sama dengan item tindakan di satu lokasi dan tombol navigasi di lokasi yang berbeda.
+Papan pesan harus berisi 5 pesan terbaru yang diposting di halaman liga. Pesan akan berisi hingga 150 karakter pertama dari pesan.
+Seorang pengguna baru harus dapat menavigasi melalui halaman liga dan tim dalam waktu 30 detik setelah mencapai halaman awal.
+Pengguna dapat mencapai halaman ‘tambahkan‘ drop ’dan and pemain dagang’ dengan satu klik dari halaman pemilik tim.
+Pengguna harus dapat melihat setidaknya 25 statistik dan poin pemain NFL di setiap halaman.
+Aplikasi harus meminta pengguna untuk mengonfirmasi menjatuhkan pemain atau memperdagangkan pemain sebelum melakukan tindakan.
+Aplikasi harus dapat menyelesaikan setiap transaksi pengguna dalam waktu seperempat detik setelah menerima permintaan melalui jaringan.
+Aplikasi harus memiliki waktu henti paling lama 10 menit per tahun.
+Aplikasi harus dijalankan pada server aplikasi web.
+Database primer akan digunakan untuk menyimpan data cache untuk pengguna aktif.
+Basis data sekunder akan digunakan untuk menyimpan statistik dan data historis.
+Pembaruan aplikasi akan terjadi antara jam 3 pagi dan 6 pagi CST pada hari Rabu pagi selama pertengahan musim NFL.
+Rilis versi Sistem baru akan dirilis pada awal setiap musim NFL.
+Sistem RFS harus tersedia 24/7 terutama selama periode penganggaran. Sistem RFS harus tersedia 90% sepanjang tahun dan 98% selama periode penganggaran. 2% dari waktu sistem akan tersedia dalam 1 jam dari waktu situasi dilaporkan.
+98% dari workstation pengguna harus memenuhi persyaratan perangkat keras minimum sebelum implementasi. Ruang Hard Disk Minimum: 400MB.
+98% dari workstation pengguna harus memenuhi persyaratan perangkat lunak minimum sebelum implementasi: Microsoft Internet Explorer 5.0. Microsoft .NET Framework 1.1. Kontrol Web Microsoft Internet Explorer
+Sistem RFS harus dapat dengan mudah berinteraksi dengan lingkungan BDW untuk memuat data. 7 file data akan diterima dari BDW dan dimuat ke dalam sistem RFS dalam waktu 3 jam sehari sebelum dimulainya proses penganggaran setiap tahun. Data akan sampai akhir bulan Oktober. File uji (7) harus dimuat hingga 5 kali sepanjang tahun dari BDW.
+Perubahan pada formula pendapatan dan pengeluaran harus diterapkan pada sistem RFS setiap tahun sebelum proses penganggaran dimulai. Rumus pendapatan dan pengeluaran akan diperbarui dalam satu minggu setelah diterimanya setelah 2 minggu akan dialokasikan untuk pengujian perhitungan anggaran yang akan dilakukan bersama oleh tim pengembangan proyek dan PCG Finance.
+Cabang / kompleks / kabupaten / daerah baru dan akun pendapatan / pengeluaran yang ditambahkan ke BDW harus tercermin dalam sistem RFS. 100% entitas (yang disebutkan di atas) yang tersedia pada akhir bulan Oktober akan dimuat ke dalam sistem RFS sebelum proses anggaran dimulai.
+Hanya pengguna yang sah yang dapat mengakses sistem RFS. HANYA pengguna yang ada dalam sistem UAS dengan sistem RFS yang ditugaskan untuk peran mereka harus mengakses sistem RFS dan menggunakannya.
+Akses pengguna harus dibatasi pada izin yang diberikan untuk peran mereka. Setiap tingkat dalam hirarki PCG akan diberi peran dan pengguna akan ditugaskan ke peran ini. Akses ke fungsionalitas dalam sistem RFS tergantung pada hak istimewa / izin yang diberikan pada peran tersebut.
+Produk harus mematuhi standar halaman intranet dan persyaratan ENET Securities. 95% tampilan dan nuansa produk akan disetujui oleh kelompok Arsitektur sebelum implementasi. 5% sisanya akan diperbaiki dan disetujui dalam waktu satu bulan sejak rilis produk.
+Halaman intranet harus ditampilkan dengan tepat di semua resolusi mulai 800x600 dan lebih tinggi. Tampilan semua halaman akan benar di 95% dari resolusi sebelum implementasi. 5% sisanya akan diperbaiki dalam waktu seminggu setelah pemberitahuan tampilan yang salah.
+Pengguna harus dapat dengan mudah menggunakan sistem untuk berhasil menyelesaikan anggaran mereka dalam waktu yang ditentukan untuk penyelesaian. Dengan pelatihan selama seminggu sebelum penerapan produk, 98% pengguna harus menyelesaikan anggaran mereka dalam waktu yang ditentukan.
+Antarmuka produk harus cepat. Waktu respons antarmuka produk tidak boleh melebihi 2 detik 90% dari waktu. Untuk 10% waktu, waktu respons tidak boleh lebih dari 10 detik. Tidak boleh lebih dari 10 detik.
