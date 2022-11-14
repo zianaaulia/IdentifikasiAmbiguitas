@@ -1,0 +1,19 @@
+"Sistem dapat menampilkan halaman login yang berisikan username dan password khusus untuk administrator"\n
+"Sistem menampilkan page login, dengan inputan username dan password"
+"Sistem menampilkan page login yang dilengkapi tombol untuk login atau batal"
+Sistem menampilkan page login hanya untuk administrator yang akan masuk dalam sistem untuk melakukan maintenance data atau perubahan setting pada sistem
+Sistem dapat mencatat waktu dan ip dari mesin user pada saat login dan logout oleh administrator
+Sistem dapat mencatat dan menyimpan ke dalam database IP dari user baik admin maupun user yang mengakses sistem
+Sistem dapat mencatat dan menyimpan waktu login mulai dari admin yang login
+Sistem dapat mencatat dan menyimpan waktu logout akhir dari admin yang logout
+Sistem dapat mencatat dan menyimpan total jumlah waktu user ketika masuk dalam sistem
+Sistem dapat menampilkan pesan kesalahan sesuai dengan tipenya pada saat login
+Sistem dapat menampilkan kesalahan jika salah username
+Sistem dapat menampilkan kesalahan jika salah password
+Sistem akan menutup secara otomatis jika username atau password salah sebanyak 3 kali
+Sistem dapat menampilkan data login untuk laporan keamanan sistem dan tracing access sistem
+Sistem dapat menampilkan halaman awal sesuai dengan tipe hak akses yang ada yaitu administrator dan user
+Sistem dapat menampilkan form untuk pengaturan nilai variabel pasti untuk simulasi perhitungan investasi, yang hanya bisa diakses oleh administrator
+Sistem ini akan berjalan menggunakan web browser dengan asumsi sistem operasi yang digunakan sudah mendukung web browser
+Sistem ini membutuhkan inputan jumlah tahun yang akan di simulasikan untuk perhitungan nilai investasi yang ada
+Sistem tidak digunakan untuk melakukakn perhitungan diluar metodologi yang sudah di gunakan

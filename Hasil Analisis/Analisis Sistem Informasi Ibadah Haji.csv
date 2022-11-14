@@ -1,0 +1,20 @@
+,Pernyataan Kebutuhan PL,Jenis Ambiguitas
+0,"['Sistem', 'dapat', 'menampilkan', 'halaman', 'login', 'yang', 'berisikan', 'username', 'dan', 'password', 'khusus', 'untuk', 'administrator']",coordination
+1,"['Sistem', 'menampilkan', 'page', 'login', ',', 'dengan', 'inputan', 'username', 'dan', 'password']",-
+2,"['Sistem', 'menampilkan', 'page', 'login', 'yang', 'dilengkapi', 'tombol', 'untuk', 'login', 'atau', 'batal']",-
+3,"['Sistem', 'menampilkan', 'page', 'login', 'hanya', 'untuk', 'administrator', 'yang', 'akan', 'masuk', 'dalam', 'sistem', 'untuk', 'melakukan', 'maintenance', 'data', 'atau', 'perubahan', 'setting', 'pada', 'sistem']",-
+4,"['Sistem', 'dapat', 'mencatat', 'waktu', 'dan', 'ip', 'dari', 'mesin', 'user', 'pada', 'saat', 'login', 'dan', 'logout', 'oleh', 'administrator']",-
+5,"['Sistem', 'dapat', 'mencatat', 'dan', 'menyimpan', 'ke', 'dalam', 'database', 'IP', 'dari', 'user', 'baik', 'admin', 'maupun', 'user', 'yang', 'mengakses', 'sistem']",-
+6,"['Sistem', 'dapat', 'mencatat', 'dan', 'menyimpan', 'waktu', 'login', 'mulai', 'dari', 'admin', 'yang', 'login']",-
+7,"['Sistem', 'dapat', 'mencatat', 'dan', 'menyimpan', 'waktu', 'logout', 'akhir', 'dari', 'admin', 'yang', 'logout']",-
+8,"['Sistem', 'dapat', 'mencatat', 'dan', 'menyimpan', 'total', 'jumlah', 'waktu', 'user', 'ketika', 'masuk', 'dalam', 'sistem']",-
+9,"['Sistem', 'dapat', 'menampilkan', 'pesan', 'kesalahan', 'sesuai', 'dengan', 'tipenya', 'pada', 'saat', 'login']",analytical
+10,"['Sistem', 'dapat', 'menampilkan', 'kesalahan', 'jika', 'salah', 'username']",-
+11,"['Sistem', 'dapat', 'menampilkan', 'kesalahan', 'jika', 'salah', 'password']",-
+12,"['Sistem', 'akan', 'menutup', 'secara', 'otomatis', 'jika', 'username', 'atau', 'password', 'salah', 'sebanyak', '3', 'kali']",coordination
+13,"['Sistem', 'dapat', 'menampilkan', 'data', 'login', 'untuk', 'laporan', 'keamanan', 'sistem', 'dan', 'tracing', 'access', 'sistem']",-
+14,"['Sistem', 'dapat', 'menampilkan', 'halaman', 'awal', 'sesuai', 'dengan', 'tipe', 'hak', 'akses', 'yang', 'ada', 'yaitu', 'administrator', 'dan', 'user']",analytical
+15,"['Sistem', 'dapat', 'menampilkan', 'form', 'untuk', 'pengaturan', 'nilai', 'variabel', 'pasti', 'untuk', 'simulasi', 'perhitungan', 'investasi', ',', 'yang', 'hanya', 'bisa', 'diakses', 'oleh', 'administrator']",-
+16,"['Sistem', 'ini', 'akan', 'berjalan', 'menggunakan', 'web', 'browser', 'dengan', 'asumsi', 'sistem', 'operasi', 'yang', 'digunakan', 'sudah', 'mendukung', 'web', 'browser']",-
+17,"['Sistem', 'ini', 'membutuhkan', 'inputan', 'jumlah', 'tahun', 'yang', 'akan', 'di', 'simulasikan', 'untuk', 'perhitungan', 'nilai', 'investasi', 'yang', 'ada']",-
+18,"['Sistem', 'tidak', 'digunakan', 'untuk', 'melakukakn', 'perhitungan', 'diluar', 'metodologi', 'yang', 'sudah', 'di', 'gunakan']",-

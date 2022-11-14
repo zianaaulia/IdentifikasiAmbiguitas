@@ -1,0 +1,38 @@
+Sistem diharapkan dapat memberikan kemudahan dan kenyamanan kepada aparat kelurahan dalam melayanani publik
+Sistem diharapkan dapat mempercepat proses pelayanan publik di kelurahan
+Meningkatkan mutu pelayanan di kelurahan sesuai dengan peraturan pemerintah
+Memberikan informasi mengenai data penduduk yang up to date
+Perangkat Lunak dirancang dengan antarmuka bahasa Indonesia yang mudah dipahami
+Perangkat lunak berupa aplikasi web, antarmuka tampilan dirancang seminimalis mungkin, tidak terlalu banyak tombol, dan mewakili warna yang menarik dan cerah
+Pada setiap form isian (dalam aplikasi) diberikan menu bantuan atau contoh pengisian yang sesuai dengan isian yang harus dimasukkan
+tombol-tombol diutamakan menggunakan ikon-ikon atau perintah yang sesuai dengan fungsi tombol dan mudah dipahami
+Pada isian form yang wajib diisi diberikan tanda * dengan warna merah
+Sebelum dan sesudah data disimpan diperlukan konfirmasi
+Aplikasi database dirancang untuk satu data per satu penduduk (tidak boleh ada penggandaan data)
+Aplikasi pencetakan mempunyai pilihan cetak untuk laporan, surat pengantar, dan resi atau tanda terima
+Aplikasi dapat ditambahi dengan fasilitas link untuk email dan chat
+Sistem dibangun dengan model client-server dan web application
+Sistem dibangun dengan multiple login
+Sistem dapat diintegrasikan dengan jaringan komputer lain
+Database dirancang dapat diintegrasikan dengan sistem aplikasi lain, misalnya aplikasi SIMDUK untuk tingkat kecamatan
+Bahasa Pemrograman script PHP, untuk basis data digunakan MySQL, sedangkan web server yang digunakan adalah AppServ 2.2.
+Sistem bisa menampilkan informasi tentang data penduduk secara lengkap
+Sistem dapat melakukan pencarian data penduduk secara cepat dan akurat berdasarkan kriteria tertentu
+Sistem dapat menampilkan form misalnya dalam pengurusan KTP di kelurahan
+Pada sistem informasi ini untuk pengurusan KTP dapat dipisahkan berdasarkan kriteria yaitu Pembuatan KTP baru, Pembuatan KTP Perpanjangan, Pembuatan KTP Hilang atau Rusak, dan Pembuatan KTP Perubahan Data
+Sistem digunakan oleh aparat kelurahan dengan fasilitas login hanya pada petugas atau user yang berwenang
+Sistem dapat melakukan otentifikasi dan otoritas untuk user
+Sistem ini dapat memberikan dan mencetak laporan misalnya dalam pengurusan KTP di kelurahan
+Sistem ini dapat mencetak resi atau tanda terima dan surat pengantar dari kelurahan
+Sistem ini dapat diintegrasikan dengan sistem kependudukan yang ada di kecamatan
+Fungsi Menu Utama untuk melihat keseluruhan menu layanan yang ada pada sistem informasi, menu admin, menu registrasi, menu keluar dan deskripsi singkat serta informasi mengenai kelurahan. Fungsi ini membatasi hanya pengguna yang bersangkutan yang dapat mengakses sistem. 
+Terdapat dua modul menu utama yaitu modul menu utama untuk user dan modul menu utama untuk admin
+Fungsi Formulir Pendaftaran untuk menginputkan biodata penduduk
+Fungsi Lihat Data Penduduk akan menampilkan data-data penduduk yang terdaftar di kelurahan
+Fungsi Cari Data Penduduk untuk mencari data penduduk berdasarkan kriteria pencarian yang diinputkan oleh user
+Funsgi Cetak Resi/Laporan untuk menampilkan form cetak laporan, cetak surat pengantar keurahan dan cetak resi/tanda terima
+Fungsi Registrasi User untuk menginputkan data petugas atau user yang akan menggunakan sistem informasi username dan password akan diinputkan pada fungsi ini yang nantinya akan dipakai oleh user untuk login atau masuk pada sistem informasi
+Fungsi Login berfungsi untuk membatasi hanya pengguna yang bersangkutan yang dapat mengakses sistem sesuai dengan perang masing-masing. Pengguna yang tidak bersangkutan akan ditolak. Jika salah memasukkan login maka akan disampaikan pesan kesalahannya. Pada sistem informasi ini, terdapat dua data login yaitu login untuk user dan login untuk administrator.
+Fungsi Administrator Sistem	Administrator sistem mempunyai hak akses terhadap keseluruhan tabel-tabel dalam basis data. Bertanggung jawab atas kelancaran keseluruhan sistem. Hak-hak yang dimiliki oleh administrator sistem adalah sebagai berikut: melihat dan mengatur keseluruhan data dalam basis data, memberikan hak akses kepada seseorang sesuai dengan tugasnya masing-masing dengan memberikan username dan password kepada orang tersebut, menghapus data-data yang tidak benar, atau tidak jelas asal-usulnya
+Fungsi Cari Data Penduduk mencari data penduduk yang telah terdaftar di kelurahan berdasarkan kriteria tertentu
+Fungsi Keluar / Logout untuk keluar dari sistem
